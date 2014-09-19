@@ -1,5 +1,5 @@
-export DOTFILES_ROOT=$HOME/maxis-dotfiles
-source "$DOTFILES_ROOT/dotfiles-conf.sh"
+export DOTFILES_ROOT=$HOME/my-dotfiles
+#source "$DOTFILES_ROOT/dotfiles-conf.sh"
 
 # ~/.bashrc: executed by bash(1) for non-login shells.
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)

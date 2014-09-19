@@ -1,4 +1,5 @@
 export DOTFILES_ROOT=$HOME/my-dotfiles
+export SUBMODULE_ROOT=$DOTFILES_ROOT/submodules
 #source "$DOTFILES_ROOT/dotfiles-conf.sh"
 
 # Path to your oh-my-zsh configuration.

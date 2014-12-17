@@ -10,8 +10,9 @@ ZSH=$DOTFILES_ROOT/submodules/oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="robbyrussell"
-#ZSH_THEME="ys"
+#ZSH_THEME="robbyrussell"
+#ZSH_THEME="gentoo"
+ZSH_THEME="ys"
 
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
@@ -36,7 +37,8 @@ source $DOTFILES_ROOT/bin/aliases.sh
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git pip python virtualenvwrapper)
+#plugins=(git pip python virtualenvwrapper)
+plugins=(git pip python)
 
 source $ZSH/oh-my-zsh.sh
 

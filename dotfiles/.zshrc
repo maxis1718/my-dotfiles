@@ -12,7 +12,13 @@ ZSH=$DOTFILES_ROOT/submodules/oh-my-zsh
 # time that oh-my-zsh is loaded.
 #ZSH_THEME="robbyrussell"
 #ZSH_THEME="gentoo"
-ZSH_THEME="ys"
+
+if [ "x$YROOT_NAME" != "x" ]; then
+    ZSH_THEME="ys"
+else
+    #ZSH_THEME="robbyrussell"
+    ZSH_THEME="gentoo"
+fi
 
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
@@ -50,6 +56,12 @@ export PATH="$HOME/bin:/usr/local/bin:$PATH"
 export PYTHONPATH='/usr/local/lib/python2.7/site-packages'
 export PROJECT_HOME="$HOME/projects"
 #export PYTHONPATH="$PYTHONPATH:$PROJECT_HOME/pymodules:/tools/wordseg"
+
+## For Yahoo! gsp2
+# SOURCE_DIR: the parent path of `web`
+export SOURCE_DIR=$PROJECT_HOME 
+# R3HOME: set to be able to use `gsp2r3` command
+export R3HOME=$SOURCE_DIR/web/r3
 
 if [[ "$TERM" == "dumb" ]]
 then

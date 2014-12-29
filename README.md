@@ -8,7 +8,7 @@ Install oh-my-zsh and related dotfiles
 
 ```
 cd ~
-git clone --recursive git@github.com:maxis1718/my-dotfiles.git
+git clone git@github.com:maxis1718/my-dotfiles.git
 ```
 
 ## Setup

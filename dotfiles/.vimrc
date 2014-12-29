@@ -1,7 +1,7 @@
 syntax on
 set nu
 set background=dark
-"set cursorline
+set cursorline
 
 " size of a hard tabstop
 set tabstop=4
@@ -18,3 +18,6 @@ set smarttab
 
 " always uses spaces instead of tab characters
 set expandtab
+
+filetype on
+au BufNewFile,BufRead *.ros set filetype=php

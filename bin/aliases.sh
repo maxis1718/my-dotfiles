@@ -13,3 +13,11 @@ alias d=popd
 alias t="tmux at"
 
 alias p="PROJECT_HOME"
+
+# grep
+alias gr="grep -nR"
+alias gp="grep -nR"
+alias fr="LC_ALL=C fgrep -nR"
+
+# yroot
+alias y="yroot"

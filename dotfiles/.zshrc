@@ -57,6 +57,10 @@ export PYTHONPATH='/usr/local/lib/python2.7/site-packages'
 export PROJECT_HOME="$HOME/projects"
 #export PYTHONPATH="$PYTHONPATH:$PROJECT_HOME/pymodules:/tools/wordseg"
 
+
+export WORKON_HOME=$HOME/.virtualenvs
+source /usr/bin/virtualenvwrapper.sh
+
 ## For Yahoo! gsp2
 # SOURCE_DIR: the parent path of `web`
 export SOURCE_DIR=$PROJECT_HOME 

@@ -1,7 +1,7 @@
 syntax on
 set nu
 set background=dark
-set cursorline
+"set cursorline
 
 " size of a hard tabstop
 set tabstop=4

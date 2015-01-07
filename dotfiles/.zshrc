@@ -88,3 +88,5 @@ PATH=$HOME/.rvm/bin:$PATH # Add RVM to PATH for scripting
 
 ### Added by the Heroku Toolbelt
 #export PATH="/usr/local/heroku/bin:$PATH"
+#
+alias refresh="gsp2r3 web/zh_HK/skins/search/html_mobile_purple/main.inc; gsp2r3 web/zh_TW/skins/search/html_mobile_purple/main.inc; yinst restart yapache"

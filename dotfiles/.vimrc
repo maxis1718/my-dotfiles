@@ -18,3 +18,6 @@ set smarttab
 
 " always uses spaces instead of tab characters
 set expandtab
+
+filetype on
+au BufNewFile,BufRead *.ros set filetype=php

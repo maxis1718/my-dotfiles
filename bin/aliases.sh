@@ -12,4 +12,17 @@ alias d=popd
 
 alias t="tmux at"
 
+# path
 alias p="PROJECT_HOME"
+alias cosmostpl="$PROJECT_HOME/web/src/templates/web/all/generic/skins/cosmos/html/component/"
+alias cosmosjs="$PROJECT_HOME/web/src/webdev/js/intl/all/cosmos/plugins/"
+
+# grep
+alias rep="grep -nR"
+alias rp="grep -nR"
+alias fr="LC_ALL=C fgrep -nR"
+
+# yroot
+alias y="yroot"
+
+alias loc="find . -name"

@@ -26,3 +26,6 @@ alias fr="LC_ALL=C fgrep -nR"
 alias y="yroot"
 
 alias loc="find . -name"
+
+# generate r3output and restart apache
+alias refresh="gsp2r3 ~/projects/web/src/r3output/web/zh_TW ; yinst restart yapache"

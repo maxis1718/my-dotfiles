@@ -33,4 +33,4 @@ alias y="yroot"
 alias loc="find . -name"
 
 # generate r3output and restart apache
-alias refresh="gsp2r3 ~/projects/web/src/r3output/web/zh_TW ; yinst restart yapache"
+alias refresh="echo '>>>> fusing css and js...'; make gsp2_fuse_css; make gsp2_fuse_js; echo '>>>> building tw'; gsp2r3 web/zh_TW; echo '>>>> building hk'; gsp2r3 web/zh_HK; yinst restart yapache"

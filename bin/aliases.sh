@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# system program pathes
+PHP=$(which php);
+PHPUNIT=$(which phpunit);
+
 # manage system alais here
 alias ls='ls --color'
 alias o="ls -ahl --color"
@@ -17,10 +21,9 @@ alias p="PROJECT_HOME"
 alias cosmostpl="$PROJECT_HOME/web/src/templates/web/all/generic/skins/cosmos/html/component/"
 alias cosmosjs="$PROJECT_HOME/web/src/webdev/js/intl/all/cosmos/plugins/"
 alias cosmostest="$PROJECT_HOME/web/test/php/src/templates/web/all/generic/skins/cosmos/html/component"
-PHP=$(which php);
-PHPUNIT=$(which phpunit);
-alias unit="$PHP $PHPUNIT --colors --bootstrap test/php/dependency.inc --coverage-clover results/code-coverage/clover.xml --coverage-html results/code-coverage --log-junit results/unit-tests/log.xml"
 
+# e.g., unit test/php/src/templates/web/all/generic/skins/cosmos/html/component/compJsToggle
+alias unit="$PHP $PHPUNIT --colors --bootstrap test/php/dependency.inc --coverage-clover results/code-coverage/clover.xml --coverage-html results/code-coverage --log-junit results/unit-tests/log.xml"
 
 # grep
 alias rep="grep -nR"

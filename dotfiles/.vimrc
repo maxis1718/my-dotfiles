@@ -1,7 +1,9 @@
 syntax on
 set nu
 set background=dark
-"set cursorline
+set cursorline
+
+colorscheme grb256
 
 " size of a hard tabstop
 set tabstop=4
@@ -21,3 +23,5 @@ set expandtab
 
 filetype on
 au BufNewFile,BufRead *.ros set filetype=php
+au BufNewFile,BufRead *.scss set filetype=css
+au BufNewFile,BufRead *.dust set filetype=html

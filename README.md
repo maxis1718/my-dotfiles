@@ -3,6 +3,14 @@ my-dotfiles
 
 Install oh-my-zsh and related dotfiles
 
+## Do first
+
+Add key to `git.corp` and `github`
+
+```
+# copy the public key to github
+cat ~/.ssh/id_rsa.pub
+```
 
 ## Install
 
@@ -15,10 +23,18 @@ git clone git@git.corp.yahoo.com:maxiskao/my-dotfiles.git
 
 ```
 ./setup.sh
+./submodules.sh
 ```
 
-this will create symbolic links of dotfiles including `.bashrc`, `.gitconfig`, `.gitignore_global`, `.screenrc`, `.tmux.conf`, `.toprc`, `.vimrc` and `.zshrc`.
+this will create symbolic links of dotfiles including `.bashrc`, `.gitconfig`, `.gitignore_global`, `.screenrc`, `.tmux.conf`, `.toprc`, `.vimrc` and `.zshrc`., and also install all submodules
 
+```
+# switch to zsh
+chsh -s $(which zsh)
+
+# reload zshrc
+source ~/.zshrc
+```
 
 ## File structure
 

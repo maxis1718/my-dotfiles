@@ -22,8 +22,8 @@ git clone git@git.corp.yahoo.com:maxiskao/my-dotfiles.git
 ## Setup
 
 ```
-./setup.sh
 ./submodules.sh
+./setup.sh
 ```
 
 this will create symbolic links of dotfiles including `.bashrc`, `.gitconfig`, `.gitignore_global`, `.screenrc`, `.tmux.conf`, `.toprc`, `.vimrc` and `.zshrc`., and also install all submodules

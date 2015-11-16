@@ -115,6 +115,6 @@ fi
 
 [[ -s "$HOME/.pythonbrew/etc/bashrc" ]] && source "$HOME/.pythonbrew/etc/bashrc"
 
-eval `dircolors $DOTFILES_ROOT/submodule/dircolors-solarized/dircolors.256dark`
+eval `dircolors $SUBMODULE_ROOT/dircolors-solarized/dircolors.256dark`
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting

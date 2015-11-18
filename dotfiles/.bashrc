@@ -118,3 +118,4 @@ fi
 eval `dircolors $SUBMODULE_ROOT/dircolors-solarized/dircolors.256dark`
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+export NODE_PATH=/home/y/lib/node_modules:$NODE_PATH

@@ -15,7 +15,7 @@
 	url = git@github.com:Lokaltog/powerline.git
 [submodule "submodules/tmux-powerline"]
 	path = submodules/tmux-powerline
-	url = git@github.com:erikw/tmux-powerline.git
+	url = git@github.com:maxis1718/tmux-powerline.git
 [submodule "submodules/Vundle.vim"]
 	path = submodules/Vundle.vim
 	url = https://github.com/VundleVim/Vundle.vim.git
